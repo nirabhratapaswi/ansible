@@ -1,0 +1,1 @@
+{"uuid": "fec1f157-b772-4e04-b162-2dcd9fc6c6fd", "stdout": "\u001b[0;31mERROR! the playbook: text.yml could not be found\u001b[0m", "counter": 1, "end_line": 1, "runner_ident": "8e8fa2f4-e96e-410e-ac69-b627297651e8", "start_line": 0, "event": "verbose"}

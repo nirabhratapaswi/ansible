@@ -1,0 +1,1 @@
+{"uuid": "336c71c5-7f7f-45bb-ae3d-2740c000a82c", "stdout": "", "counter": 1, "pid": 25052, "event_data": {"playbook_uuid": "336c71c5-7f7f-45bb-ae3d-2740c000a82c", "pid": 25052, "playbook": "touch-playbook.yaml"}, "end_line": 0, "created": "2019-09-24T12:36:26.384509", "runner_ident": "4f4ce14d-de8a-4661-92cd-6a4b3f675c63", "start_line": 0, "event": "playbook_on_start"}

@@ -1,0 +1,1 @@
+{"uuid": "6f01f2f4-f90f-415a-a2a4-e6c69cd4ce5a", "stdout": "\u001b[0;31mThis error can be suppressed as a warning using the \"invalid_task_attribute_failed\" configuration\u001b[0m", "counter": 13, "end_line": 13, "runner_ident": "ab63fc50-a75a-4cfe-983f-310d891dc08d", "start_line": 12, "event": "verbose"}

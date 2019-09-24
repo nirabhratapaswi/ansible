@@ -1,0 +1,4 @@
+- hosts: ubuntu@54.193.67.251
+  tasks:
+  - name: put some text in file
+    shell: echo "Awesome things are going to happen" > jupyter_kernel_in_love.py

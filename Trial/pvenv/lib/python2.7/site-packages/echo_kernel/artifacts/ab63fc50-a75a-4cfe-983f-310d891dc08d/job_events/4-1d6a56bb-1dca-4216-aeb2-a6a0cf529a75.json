@@ -1,0 +1,1 @@
+{"uuid": "1d6a56bb-1dca-4216-aeb2-a6a0cf529a75", "stdout": "\u001b[0;31mThe error appears to be in '/home/tardis/Programming/Ansible/ansible-runner/demo/project/test.yml': line 7, column 7, but may\u001b[0m", "counter": 4, "end_line": 4, "runner_ident": "ab63fc50-a75a-4cfe-983f-310d891dc08d", "start_line": 3, "event": "verbose"}

@@ -1,0 +1,1 @@
+{"uuid": "5ff0692e-1471-4081-8136-2f35efb93aeb", "stdout": "\u001b[1;35m [WARNING]: Consider using the file module with state=touch rather than running\u001b[0m", "counter": 8, "end_line": 8, "runner_ident": "4f4ce14d-de8a-4661-92cd-6a4b3f675c63", "start_line": 7, "event": "verbose"}

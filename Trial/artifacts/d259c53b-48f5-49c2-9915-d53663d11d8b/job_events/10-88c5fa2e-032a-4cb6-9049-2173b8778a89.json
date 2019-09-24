@@ -1,0 +1,1 @@
+{"uuid": "88c5fa2e-032a-4cb6-9049-2173b8778a89", "stdout": "\u001b[1;35m'warn: false' to this command task or set 'command_warnings=False' in\u001b[0m", "counter": 10, "end_line": 10, "runner_ident": "d259c53b-48f5-49c2-9915-d53663d11d8b", "start_line": 9, "event": "verbose"}

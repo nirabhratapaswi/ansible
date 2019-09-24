@@ -1,0 +1,20 @@
+[0;34mUsing /etc/ansible/ansible.cfg as config file[0m
+
+PLAY [all] *********************************************************************
+
+TASK [Gathering Facts] *********************************************************
+[0;32mok: [54.193.67.251][0m
+
+TASK [debug] *******************************************************************
+[0;32mok: [54.193.67.251] => {[0m
+[0;32m    "msg": "Test!"[0m
+[0;32m}[0m
+
+TASK [Git clone] ***************************************************************
+[0;31mfatal: [54.193.67.251]: FAILED! => {"changed": false, "cmd": "/usr/bin/git clone --origin origin https://github.com/ansible/ansible-runner.git /home/ubuntu/ansible-runner", "msg": "fatal: could not create leading directories of '/home/ubuntu/ansible-runner': Permission denied", "rc": 128, "stderr": "fatal: could not create leading directories of '/home/ubuntu/ansible-runner': Permission denied\n", "stderr_lines": ["fatal: could not create leading directories of '/home/ubuntu/ansible-runner': Permission denied"], "stdout": "", "stdout_lines": []}[0m
+[0;31m54.193.67.251[0m              : [0;32mok=2   [0m changed=0    unreachable=0    [0;31mfailed=1   [0m skipped=0    rescued=0    ignored=0   
+
+
+PLAY RECAP *********************************************************************
+[0;31m54.193.67.251[0m              : [0;32mok=2   [0m changed=0    unreachable=0    [0;31mfailed=1   [0m skipped=0    rescued=0    ignored=0   
+

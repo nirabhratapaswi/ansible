@@ -1,0 +1,10 @@
+[0;34mUsing /etc/ansible/ansible.cfg as config file[0m
+
+PLAY [ubuntu@54.193.67.251] ****************************************************
+
+TASK [Gathering Facts] *********************************************************
+[0;31mfatal: [ubuntu@54.193.67.251]: FAILED! => {"msg": "the connection plugin 'ubuntu@54.193.67.251' was not found"}[0m
+
+PLAY RECAP *********************************************************************
+[0;31mubuntu@54.193.67.251[0m       : ok=0    changed=0    unreachable=0    [0;31mfailed=1   [0m skipped=0    rescued=0    ignored=0   
+
