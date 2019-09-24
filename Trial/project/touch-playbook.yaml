@@ -1,0 +1,5 @@
+---
+- hosts: ubuntu@54.193.67.251
+  tasks:
+    - name: Create new file
+      shell: touch hello_runner.txt; echo "Hello World" > hello_runner.txt;

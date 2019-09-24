@@ -1,0 +1,13 @@
+[0;34mUsing /etc/ansible/ansible.cfg as config file[0m
+
+PLAY [all] *********************************************************************
+
+TASK [Gathering Facts] *********************************************************
+[0;32mok: [54.193.67.251][0m
+
+TASK [Create new file] *********************************************************
+[0;31mfatal: [54.193.67.251]: FAILED! => {"changed": false, "module_stderr": "sudo: a password is required\n", "module_stdout": "", "msg": "MODULE FAILURE\nSee stdout/stderr for the exact error", "rc": 1}[0m
+
+PLAY RECAP *********************************************************************
+[0;31m54.193.67.251[0m              : [0;32mok=1   [0m changed=0    unreachable=0    [0;31mfailed=1   [0m skipped=0    rescued=0    ignored=0   
+

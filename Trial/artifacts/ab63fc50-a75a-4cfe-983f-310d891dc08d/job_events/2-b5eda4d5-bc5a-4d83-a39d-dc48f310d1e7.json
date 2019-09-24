@@ -1,0 +1,1 @@
+{"uuid": "b5eda4d5-bc5a-4d83-a39d-dc48f310d1e7", "stdout": "\u001b[0;31mERROR! 'var' is not a valid attribute for a Task\u001b[0m", "counter": 2, "end_line": 2, "runner_ident": "ab63fc50-a75a-4cfe-983f-310d891dc08d", "start_line": 1, "event": "verbose"}

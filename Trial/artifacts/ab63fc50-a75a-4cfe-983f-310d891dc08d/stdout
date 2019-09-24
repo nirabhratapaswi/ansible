@@ -1,0 +1,13 @@
+[0;34mUsing /etc/ansible/ansible.cfg as config file[0m
+[0;31mERROR! 'var' is not a valid attribute for a Task[0m
+[0;31m[0m
+[0;31mThe error appears to be in '/home/tardis/Programming/Ansible/ansible-runner/demo/project/test.yml': line 7, column 7, but may[0m
+[0;31mbe elsewhere in the file depending on the exact syntax problem.[0m
+[0;31m[0m
+[0;31mThe offending line appears to be:[0m
+[0;31m[0m
+[0;31m      register: output[0m
+[0;31m    - debug:[0m
+[0;31m      ^ here[0m
+[0;31m[0m
+[0;31mThis error can be suppressed as a warning using the "invalid_task_attribute_failed" configuration[0m

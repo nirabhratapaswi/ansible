@@ -1,0 +1,25 @@
+[0;34mUsing /etc/ansible/ansible.cfg as config file[0m
+
+PLAY [all] *********************************************************************
+
+TASK [Gathering Facts] *********************************************************
+[0;32mok: [54.193.67.251][0m
+
+TASK [debug] *******************************************************************
+[0;32mok: [54.193.67.251] => {[0m
+[0;32m    "msg": "Test!"[0m
+[0;32m}[0m
+
+TASK [Touch a file] ************************************************************
+[1;35m [WARNING]: Consider using the file module with state=touch rather than running[0m
+[1;35m'touch'.  If you need to use command because file is insufficient you can add[0m
+[1;35m'warn: false' to this command task or set 'command_warnings=False' in[0m
+[1;35mansible.cfg to get rid of this message.[0m
+[1;35m[0m
+[0;31mfatal: [54.193.67.251]: FAILED! => {"changed": true, "cmd": "touch /home/ubuntu/hello_world_97.txt", "delta": "0:00:00.003077", "end": "2019-09-24 18:31:36.294406", "msg": "non-zero return code", "rc": 1, "start": "2019-09-24 18:31:36.291329", "stderr": "touch: cannot touch '/home/ubuntu/hello_world_97.txt': No such file or directory", "stderr_lines": ["touch: cannot touch '/home/ubuntu/hello_world_97.txt': No such file or directory"], "stdout": "", "stdout_lines": []}[0m
+[0;31m54.193.67.251[0m              : [0;32mok=2   [0m changed=0    unreachable=0    [0;31mfailed=1   [0m skipped=0    rescued=0    ignored=0   
+
+
+PLAY RECAP *********************************************************************
+[0;31m54.193.67.251[0m              : [0;32mok=2   [0m changed=0    unreachable=0    [0;31mfailed=1   [0m skipped=0    rescued=0    ignored=0   
+

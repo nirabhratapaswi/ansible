@@ -1,0 +1,1 @@
+{"uuid": "4e440266-107c-4869-aa73-9d91da20e716", "stdout": "\u001b[0;31mERROR! the playbook: ./touch-playbook.yaml could not be found\u001b[0m", "counter": 1, "end_line": 1, "runner_ident": "1db5d9ca-0073-41db-948a-45c2e38d3b58", "start_line": 0, "event": "verbose"}

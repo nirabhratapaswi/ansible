@@ -1,0 +1,22 @@
+
+PLAY [all] *********************************************************************
+
+TASK [Gathering Facts] *********************************************************
+[0;32mok: [54.193.67.251][0m
+
+TASK [debug] *******************************************************************
+[0;32mok: [54.193.67.251] => {[0m
+[0;32m    "msg": "Test!"[0m
+[0;32m}[0m
+
+TASK [Touch a file] ************************************************************
+[1;35m [WARNING]: Consider using the file module with state=touch rather than running[0m
+[1;35m'touch'.  If you need to use command because file is insufficient you can add[0m
+[1;35m'warn: false' to this command task or set 'command_warnings=False' in[0m
+[1;35mansible.cfg to get rid of this message.[0m
+[1;35m[0m
+[0;33mchanged: [54.193.67.251][0m
+
+PLAY RECAP *********************************************************************
+[0;33m54.193.67.251[0m              : [0;32mok=3   [0m [0;33mchanged=1   [0m unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+

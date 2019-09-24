@@ -1,0 +1,20 @@
+[0;34mUsing /etc/ansible/ansible.cfg as config file[0m
+
+PLAY [all] *********************************************************************
+
+TASK [Gathering Facts] *********************************************************
+[0;32mok: [54.193.67.251][0m
+
+TASK [debug] *******************************************************************
+[0;32mok: [54.193.67.251] => {[0m
+[0;32m    "msg": "Test!"[0m
+[0;32m}[0m
+
+TASK [Touch a file] ************************************************************
+[0;33mchanged: [54.193.67.251] => {"changed": true, "cmd": "echo \"Hello World\" > hello_world_97.txt", "delta": "0:00:00.002369", "end": "2019-09-24 18:37:44.796570", "rc": 0, "start": "2019-09-24 18:37:44.794201", "stderr": "", "stderr_lines": [], "stdout": "", "stdout_lines": []}[0m
+[0;33m54.193.67.251[0m              : [0;32mok=3   [0m [0;33mchanged=1   [0m unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+
+PLAY RECAP *********************************************************************
+[0;33m54.193.67.251[0m              : [0;32mok=3   [0m [0;33mchanged=1   [0m unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+

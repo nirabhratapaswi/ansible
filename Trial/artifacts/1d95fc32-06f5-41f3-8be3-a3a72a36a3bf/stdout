@@ -1,0 +1,18 @@
+[0;34mUsing /etc/ansible/ansible.cfg as config file[0m
+
+PLAY [all] *********************************************************************
+
+TASK [Gathering Facts] *********************************************************
+[0;32mok: [54.193.67.251][0m
+
+TASK [debug] *******************************************************************
+[0;32mok: [54.193.67.251] => {[0m
+[0;32m    "msg": "Test!"[0m
+[0;32m}[0m
+
+TASK [Touch a file] ************************************************************
+[0;31mfatal: [54.193.67.251]: FAILED! => {"changed": true, "cmd": "echo \"Hello World\" > /home/ubuntu/hello_world_97.txt", "delta": "0:00:00.002704", "end": "2019-09-24 18:38:28.325497", "msg": "non-zero return code", "rc": 2, "start": "2019-09-24 18:38:28.322793", "stderr": "/bin/sh: 1: cannot create /home/ubuntu/hello_world_97.txt: Directory nonexistent", "stderr_lines": ["/bin/sh: 1: cannot create /home/ubuntu/hello_world_97.txt: Directory nonexistent"], "stdout": "", "stdout_lines": []}[0m
+
+PLAY RECAP *********************************************************************
+[0;31m54.193.67.251[0m              : [0;32mok=2   [0m changed=0    unreachable=0    [0;31mfailed=1   [0m skipped=0    rescued=0    ignored=0   
+
